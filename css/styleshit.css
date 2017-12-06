@@ -1,0 +1,168 @@
+body {
+	background-color: #434343;
+	width: auto;
+	height: auto;
+	margin: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+.cardList{
+	float: left;
+  margin-left: 60px;
+	position:relative;
+	top: -200px;
+}
+
+.card {
+	height:320px;
+	weight:400px;
+	margin: 30px;
+	position: relative;
+	box-shadow: 5px 10px 25px rgba(20, 20, 20, 0.6);
+	display: flex;
+}
+
+.cardFrame {
+	width: 320px;
+	height: 320px;
+	border: 20px solid white;
+  box-sizing: border-box;
+	z-index: 20;
+}
+
+.colorBlock {
+	width: 280px;
+	height: 280px;
+}
+
+#hoverActive{
+	left:40px;
+}
+
+#cb1 {
+	background-color: #EABF6A;
+}
+
+#cb2 {
+	background-color: #62B3AB;
+}
+
+#cb3 {
+	background-color: #CB5971;
+}
+
+.yearNum {
+	color: white;
+	font-family: "Helvetica Neue";
+	Margin-left: 100px;
+	position:absolute;
+	left:420px;
+	margin-top: -60px;
+	font-size: 24px;
+	color: rgba(255, 255, 255, 0.5);
+	white-space: nowrap;
+}
+
+#activeYear {
+	font-size: 28px;
+	color: rgba(255, 255, 255, 0.8);
+	left:460px;
+	font-weight: bold;
+}
+
+.cardText {
+	width: 320px;
+	height: 80px;
+	background-color: white;
+	transform:rotate(270deg);
+	position: absolute;
+	top: 120px;
+	left: 199px;
+	box-shadow: -10px 7px 25px rgba(20, 20, 20, 0.6);
+  z-index: 5;
+}
+
+.pantoneLogo {
+	margin: 0px 5px 0px 20px;
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.colorName {
+	margin: 0px 0px 0px 20px;
+	font-family: 'Helvetica Neue';
+	font-size: 1.2em;
+}
+
+#granim-canvas
+{
+	width: 100%;
+	height: auto;
+  padding: 0px;
+  margin: 0px;
+  position:absolute;
+}
+
+.glass {
+	width: 45%;
+	height:900px;
+	float:right;
+	background-image: url("pics/bgk.png");
+	position:relative;
+}
+
+.title {
+	margin: 80px;
+	margin-top: 620px;
+	z-index: 5;
+	position:absolute;
+}
+
+#h1 {
+	font-size: 56px;
+    color: white;
+    font-family: "Helvetica Neue";
+		font-weight: bold;
+}
+
+#h2 {
+	font-size: 24px;
+	font-family: "Helvetica Neue";
+	font-weight: 200;
+    color: #dff7f8;
+    text-align: left;
+		margin-bottom: -5px;
+}
+
+.normalText {
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: "Helvetica Neue";
+	letter-spacing: 1px;
+	font-weight:200;
+		color: white;
+		text-align: left;
+}
+
+.gran {
+	background: -webkit-linear-gradient(bottom,rgba(67,67,67,1),rgba(67,67,67,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top,rgba(67,67,67,1),rgba(67,67,67,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top,rgba(67,67,67,1),rgba(67,67,67,0)); /*Fx 3.6-15*/
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	bottom: 0px;
+	left:0px;
+	z-index: 1;
+}
+
+#pantlo {
+	width:200px;
+  right:80px;
+	top:80px;
+	position: absolute;
+}

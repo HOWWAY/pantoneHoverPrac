@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pantone Prac</title>
+
+    <link href="css/styleshit.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <ul class="cardList">
+        <li class="card">
+          <div class = "cardFrame">
+            <div class = "colorBlock" id= "cb1"></div>
+          </div>
+          <div class = "cardText">
+            <div class = "pantoneLogo">PANTONE<span>&reg;</span></div>
+            <div class = "colorName">Mimosa</div>
+          </div>
+        </li>
+
+        <li id='ha'>
+        <div class="card" id="hoverActive">
+          <div class = "cardFrame">
+            <div class = "colorBlock" id= "cb2"></div>
+          </div>
+          <div class = "cardText">
+            <div class = "pantoneLogo">PANTONE<span>&reg;</span></div>
+            <div class = "colorName">Turquoise</div>
+          </div>
+        </div>
+        </li>
+
+        <li class="card">
+          <div class = "cardFrame">
+            <div class = "colorBlock" id= "cb3"></div>
+          </div>
+          <div class = "cardText">
+            <div class = "pantoneLogo">PANTONE<span>&reg;</span></div>
+            <div class = "colorName">Honeysuckle</div>
+          </div>
+        </li>
+
+      </ul>
+         <div class = 'glass'>
+          <div class = "gran"></div>
+          <img id= "pantlo" src="images/panlogo.png">
+          <div class='title'>
+            <div id ="h2">Color of the Year 2010</div>
+            <div id="h1">Turquoise</div>
+            <div class = "normalText">
+              Combining the serene qualities of blue and the invigorating aspects of green, Turquoise inspires thoughts of soothing, tropical waters and a comforting escape from the everyday troubles of the world, while at the same time restoring our sense of wellbeing.
+            </div>
+
+
+          </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.hover3d.js"></script>
+
+    <script>
+    $("#ha").hover3d({
+    	selector: "#hoverActive",
+    	shine: true,
+    	sensitivity: 20,
+    });
+    </script>
+
+
+  </body>
+</html>
